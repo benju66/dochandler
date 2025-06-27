@@ -1,0 +1,6 @@
+2024-10-14 15:21:49,649 - ERROR - Error extracting file name from descriptor: 'QByteArray' object has no attribute 'index'
+Traceback (most recent call last):
+  File "c:\document_handler\doc_handler_app.py", line 259, in extract_file_name_from_descriptor
+    null_terminator = descriptor.index(b'\x00\x00', name_offset)
+                      ^^^^^^^^^^^^^^^^
+AttributeError: 'QByteArray' object has no attribute 'index'
