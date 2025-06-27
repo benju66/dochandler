@@ -1,4 +1,48 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# VS Code settings
 .vscode/
+
+# Environment files
 .env
+.env.*
+
+# Distribution / build folders
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Executables and installers
+*.exe
+*.pkg
+*.zip
+
+# macOS junk
+.DS_Store
+
+# Windows junk
+Thumbs.db
+desktop.ini
+
+# Installer output (NSIS, Inno Setup, etc.)
+output/
+*.nsi
+
+# Logs
+*.log
+logs/
+
+# Virtual environments
+venv/
+.venv/
+
+# Cache
+*.pyd
+*.pyo
